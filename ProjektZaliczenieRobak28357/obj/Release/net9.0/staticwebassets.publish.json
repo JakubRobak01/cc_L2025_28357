@@ -1,0 +1,1753 @@
+{
+  "Version": 1,
+  "Hash": "e7ERmtCqnXNib7QuwJaS/5iHaoOG6hlyqdeuDTPQSSY=",
+  "Source": "AzureChat",
+  "BasePath": "_content/AzureChat",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AzureChat\\wwwroot",
+      "Source": "AzureChat",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\",
+      "BasePath": "_content/AzureChat",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\2pay9ykr3q-s9tjdwomat.gz",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "chat#[.{fingerprint=s9tjdwomat}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xqkgn0ux9h",
+      "Integrity": "95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\3ylku1ukql-38dvlw3f4r.gz",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "index#[.{fingerprint=38dvlw3f4r}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "czvoh4486n",
+      "Integrity": "GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\88mskfby3z-wftc6eeqay.gz",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "style#[.{fingerprint=wftc6eeqay}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z8ix38splz",
+      "Integrity": "o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\2pay9ykr3q-s9tjdwomat.br",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "chat#[.{fingerprint=s9tjdwomat}]?.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "zc1iyhuao5",
+      "Integrity": "Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\3ylku1ukql-38dvlw3f4r.br",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "index#[.{fingerprint=38dvlw3f4r}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "901oplzxbl",
+      "Integrity": "GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\88mskfby3z-wftc6eeqay.br",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "style#[.{fingerprint=wftc6eeqay}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "sd2i2ii399",
+      "Integrity": "cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "chat#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s9tjdwomat",
+      "Integrity": "EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "38dvlw3f4r",
+      "Integrity": "TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css",
+      "SourceId": "AzureChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\",
+      "BasePath": "_content/AzureChat",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wftc6eeqay",
+      "Integrity": "DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "chat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\2pay9ykr3q-s9tjdwomat.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002288329519"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "436"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\2pay9ykr3q-s9tjdwomat.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002881844380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.js.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\2pay9ykr3q-s9tjdwomat.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8="
+        }
+      ]
+    },
+    {
+      "Route": "chat.js.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\2pay9ykr3q-s9tjdwomat.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.s9tjdwomat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\2pay9ykr3q-s9tjdwomat.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002288329519"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "436"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9tjdwomat"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.s9tjdwomat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\2pay9ykr3q-s9tjdwomat.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002881844380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9tjdwomat"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.s9tjdwomat.js",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9tjdwomat"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDjP6gi635aESyll+dbmHx04BQtfPc3UNpBx9oUyLjg="
+        }
+      ]
+    },
+    {
+      "Route": "chat.s9tjdwomat.js.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\2pay9ykr3q-s9tjdwomat.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9tjdwomat"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y323d+AR0T4aoScAq3IJ/JXMfDf/vatebiDGzM5RsI8="
+        }
+      ]
+    },
+    {
+      "Route": "chat.s9tjdwomat.js.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\2pay9ykr3q-s9tjdwomat.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 00:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9tjdwomat"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-95vP/92otafsBZ8pTPMMYuIyCwFHsULu4Uv0TONXZCg="
+        }
+      ]
+    },
+    {
+      "Route": "index.38dvlw3f4r.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\3ylku1ukql-38dvlw3f4r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000632511069"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38dvlw3f4r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.38dvlw3f4r.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\3ylku1ukql-38dvlw3f4r.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000828500414"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1206"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38dvlw3f4r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.38dvlw3f4r.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38dvlw3f4r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.38dvlw3f4r.html.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\3ylku1ukql-38dvlw3f4r.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38dvlw3f4r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc="
+        }
+      ]
+    },
+    {
+      "Route": "index.38dvlw3f4r.html.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\3ylku1ukql-38dvlw3f4r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38dvlw3f4r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\3ylku1ukql-38dvlw3f4r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000632511069"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\3ylku1ukql-38dvlw3f4r.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000828500414"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1206"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQbYbSKkAJaURyZwAasFmGuAT7tA0T+w3Zp+4x1EFBs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\3ylku1ukql-38dvlw3f4r.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GbhFHRvir+hH94RnlaGFt6Xyaus+ODvvnYNFFjleUlc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\3ylku1ukql-38dvlw3f4r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMdPvLWgiaOsKDt/DtpGf5jzx4VanzKZc2zl4w4wZ3k="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\88mskfby3z-wftc6eeqay.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000551571980"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\88mskfby3z-wftc6eeqay.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000678886626"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.css.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\88mskfby3z-wftc6eeqay.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4="
+        }
+      ]
+    },
+    {
+      "Route": "style.css.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\88mskfby3z-wftc6eeqay.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c="
+        }
+      ]
+    },
+    {
+      "Route": "style.wftc6eeqay.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\88mskfby3z-wftc6eeqay.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000551571980"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wftc6eeqay"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.wftc6eeqay.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\88mskfby3z-wftc6eeqay.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000678886626"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wftc6eeqay"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.wftc6eeqay.css",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wftc6eeqay"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DD5vm1BpIPFrLs4wnHkhluMilm6X6LIvkiKK84ILRG0="
+        }
+      ]
+    },
+    {
+      "Route": "style.wftc6eeqay.css.br",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\publish\\88mskfby3z-wftc6eeqay.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wftc6eeqay"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cHkZNaBJ8U6CU5ciJwljnq1j+ZT9r7pmvcXqX4wD/G4="
+        }
+      ]
+    },
+    {
+      "Route": "style.wftc6eeqay.css.gz",
+      "AssetFile": "C:\\Users\\jarob\\OneDrive\\Pulpit\\AzureChat\\obj\\Release\\net9.0\\compressed\\88mskfby3z-wftc6eeqay.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Jun 2025 01:27:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wftc6eeqay"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o91UEgvFxdQ/zJrPypl8iIM48hR1ONBN5EoPDmkmD7c="
+        }
+      ]
+    }
+  ]
+}
