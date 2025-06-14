@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Czat JakubRobakCDV</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <style>
+        #messagesList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💬 CZAT NA ŻYWO 🍻</h1>
+
+        <div id="authSection">
+            <input type="text" id="username" placeholder="Login" />
+            <input type="password" id="password" placeholder="Hasło" />
+            <button onclick="register()">Rejestracja</button>
+            <button onclick="login()">Logowanie</button>
+        </div>
+
+        <div id="chatSection" style="display:none;">
+            <div class="inputs">
+                <input type="text" id="messageInput" placeholder="Wpisz wiadomość..." />
+                <button id="sendButton">Wyślij</button>
+                <button onclick="logout()">Wyloguj</button>
+            </div>
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+
+    <script>
+        let connection;
+
+        async function register() {
+            const res = await fetch('/api/auth/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    username: username.value,
+                    passwordHash: password.value
+                })
+            });
+            alert(await res.text());
+        }
+
+        async function login() {
+            const res = await fetch('/api/auth/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    username: username.value,
+                    passwordHash: password.value
+                })
+            });
+            if (!res.ok) return alert("Błąd logowania");
+
+            const data = await res.json();
+            localStorage.setItem("token", data.token);
+            startChat(data.token);
+        }
+
+        async function startChat(token) {
+            document.getElementById("authSection").style.display = "none";
+            document.getElementById("chatSection").style.display = "block";
+
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chathub", {
+                    accessTokenFactory: () => token
+                })
+                .build();
+
+            connection.on("ReceiveMessage", msg => {
+    const li = document.createElement("li");
+    li.style.textAlign = "left";
+
+    const now = new Date();
+    const time = now.toTimeString().substring(0, 5);
+
+    // Czyści stare [HH:mm] z wiadomości
+    const cleanMsg = msg.replace(/\[\d{2}:\d{2}\]/g, '').trim();
+
+    // Pogrubienie nicku i otoczenie go <span class="nickname">
+    const formattedMsg = cleanMsg.replace(/^([^:]+):/, '<span class="nickname">$1:</span>');
+
+    li.innerHTML = `<strong>[${time}]</strong> ${formattedMsg}`;
+    document.getElementById("messagesList").appendChild(li);
+
+    // 🔽 Auto-scroll
+    const list = document.getElementById("messagesList");
+    list.scrollTop = list.scrollHeight;
+});
+
+
+            await connection.start();
+
+            const sendMessage = async () => {
+                const msg = document.getElementById("messageInput").value;
+                if (msg) {
+                    await connection.invoke("SendMessage", msg);
+                    document.getElementById("messageInput").value = "";
+                }
+            };
+
+            document.getElementById("sendButton").addEventListener("click", sendMessage);
+            document.getElementById("messageInput").addEventListener("keydown", async (e) => {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    sendMessage();
+                }
+            });
+        }
+
+        function logout() {
+            localStorage.removeItem("token");
+            location.reload();
+        }
+    </script>
+</body>
+</html>
